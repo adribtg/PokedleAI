@@ -35,7 +35,7 @@ class DriverController:
                 turn_elements = self.driver.find_elements(By.XPATH, '//div[contains(@class,"card")]//div[contains(text(),"Votre tour")]')
                 if len(turn_elements) > 0 and turn_elements[0].is_displayed():
                     print("C'est mon tour !")
-                    return True
+                    return "turn"
 
                 rematch_button = self.driver.find_elements(By.XPATH, '//button[contains(@class,"btn-green") and text()="ACCEPTER"]')
                 if len(rematch_button) > 0 and rematch_button[0].is_displayed():

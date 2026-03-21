@@ -30,18 +30,36 @@ class PokedleAI:
         self.args = self.init_parser()
         partie = DriverController(battle_link=self.args.battle_link)
         guesser = ChoiceMaker()
+        
         while True:
             waiter = partie.wait_my_turn()
-            if waiter=='reset':
+            if waiter == 'reset':
                 guesser = ChoiceMaker()
-            time.sleep(random.randint(3000,5000)/1000)
+                print("--- Nouveau match : Base de données réinitialisée ---")
+                continue 
+
+            elif waiter == "turn":
+                time.sleep(random.randint(3000, 5000) / 1000)
+                lignes = partie.get_rows()
+                guesses = [partie.parse_row(guess) for guess in lignes]
+                pokemon = guesser.make_guess(guesses)        
+                if pokemon:
+                    partie.make_guess(pokemon)
+                time.sleep(random.randint(3000, 5000) / 1000)
+
+
+    def run_classique(self):
+        self.args = self.init_parser()
+        partie = DriverController(battle_link=self.args.battle_link)
+        guesser = ChoiceMaker()
+        while True:
+            guesser = ChoiceMaker()
             lignes = partie.get_rows()
             guesses = [partie.parse_row(guess) for guess in lignes]
-            pokemon = guesser.make_guess(guesses)        
+            pokemon = guesser.make_guess(guesses)
             partie.make_guess(pokemon)
             time.sleep(random.randint(3000,5000)/1000)
-   
-        
+
 
 if __name__ == "__main__":
     PokedleAI().run()

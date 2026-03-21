@@ -12,17 +12,17 @@ class ChoiceMaker():
     
     def make_guess(self,guess_list):
         for guess in guess_list:
-            self.process_guess(guess)
+            remaining = self.possible_pokemon.shape[0]
+            self.possible_pokemon = self.process_guess(guess)
+        remaining = self.possible_pokemon.shape[0]
+        print(f"Pokemon restants : {remaining}")
+        print(list(self.possible_pokemon["Pokemon"].values))
         pokemon_guessed = self.possible_pokemon.sample(1)["Pokemon"].values[0]
         print(f"Pokémon choisi : {pokemon_guessed}")
-        print(f"Pokemon restants : {self.possible_pokemon.shape[0]}")
         return pokemon_guessed
 
 
     def process_guess(self, guess : dict):
-        required_keys = ['Type 1', 'Type 2', "Stade d'évolution", 
-                    'Entièrement évolué', 'Couleur', 'Habitat', 'Gen']
-        
         bool_keys = ['Type 1', 'Type 2', "Stade d'évolution",'Entièrement évolué']
         for column in bool_keys:
             self.possible_pokemon = self.filter_bool_key(column,guess)
@@ -33,7 +33,7 @@ class ChoiceMaker():
 
 
     def filter_bool_key(self, key : str, guess : dict):
-        guess_key : dict = guess.get(key)
+        guess_key = guess.get(key, {})
         for value,bool in guess_key.items():
             if bool=='correct':
                 self.possible_pokemon = self.possible_pokemon[self.possible_pokemon[key]==value]
@@ -50,11 +50,7 @@ class ChoiceMaker():
     
 
     def filter_color(self, guess: dict):
-        guess_data = guess.get("Couleur", {})
-        if not guess_data:
-            print("Warning, couleur absente")
-            return self.possible_pokemon
-        
+        guess_data = guess.get("Couleur", {})    
         key = "Couleur"
         for colors_tuple, status in guess_data.items():
             proposed_colors = set(colors_tuple) 
@@ -77,30 +73,24 @@ class ChoiceMaker():
         return self.possible_pokemon
     
     def filter_habitat(self, guess: dict):
-        guess_habitat = guess.get("Habitat", {})
-        if not guess_habitat:
-            print("Warning, habitat absent")
-            return self.possible_pokemon
-        
+        guess_habitat = guess.get("Habitat", {})       
         key = "Habitat"
         for value, status in guess_habitat.items():
             proposed = {value} if isinstance(value, str) else set(value)
             if status == 'correct':
                 self.possible_pokemon = self.possible_pokemon[
-                    self.possible_pokemon[key].apply(lambda x: set(x) == proposed)
+                    self.possible_pokemon[key].apply(lambda x: proposed.issubset(set(x)))
                 ]
             elif status == 'wrong':
                 self.possible_pokemon = self.possible_pokemon[
-                    self.possible_pokemon[key].apply(lambda x: len(proposed.intersection(set(x))) == 0)
+                    self.possible_pokemon[key].apply(lambda x: not proposed.intersection(set(x)))
                 ]
             elif status == 'partial':
-                print("CE GUESS A UN ENVIRONNEMENT PARTIAL")
                 self.possible_pokemon = self.possible_pokemon[
-                    self.possible_pokemon[key].apply(lambda x: 
-                        len(proposed.intersection(set(x))) > 0 and set(x) != proposed
+                    self.possible_pokemon[key].apply(
+                        lambda x: proposed.issubset(set(x)) and len(set(x)) > len(proposed)
                     )
                 ]
-
         return self.possible_pokemon
 
 

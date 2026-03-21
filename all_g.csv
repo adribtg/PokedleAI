@@ -150,9 +150,9 @@ Draco,Normal,None,1,Non,"Rose, Bleu",city,1
 Dracolosse,Dragon,Vol,3,Oui,Orange,"freshwater,ocean",1
 Mewtwo,Psy,None,1,Oui,Violet,"cave,industrial",1
 Mew,Psy,None,1,Oui,Rose,"forest,jungle",1
-Germignon,Normal,None,1,Non,"Rose, Bleu",city,1
-Macronium,Normal,None,1,Non,"Rose, Bleu",city,1
-Méganium,Normal,None,1,Non,"Rose, Bleu",city,1
+Germignon,Plante,None,1,Non,Vert,grassland,2
+Macronium,Plante,None,2,Non,"Jaune, Vert",grassland,2
+Méganium,Plante,None,3,Oui,"Vert, Rose",grassland,2
 Héricendre,Feu,None,1,Non,"Jaune, Bleu","grassland,volcano",2
 Feurisson,Feu,None,2,Non,"Jaune, Bleu","grassland,volcano",2
 Typhlosion,Feu,None,3,Oui,"Jaune, Bleu","grassland,volcano",2
