@@ -1,0 +1,494 @@
+Pokemon,Type 1,Type 2,Stade d'évolution,Entièrement évolué,Couleur,Habitat,Gen
+Bulbizarre,Plante,Poison,2,Non,Vert,"forest,jungle",1
+Herbizarre,Plante,Poison,2,Non,"Vert, Rose","forest,jungle",1
+Florizarre,Plante,Poison,3,Oui,"Vert, Rose","forest,jungle",1
+Salamèche,Feu,None,1,Non,Orange,"mountain,volcano",1
+Reptincel,Feu,None,2,Non,Rouge,"mountain,volcano",1
+Dracaufeu,Feu,Vol,3,Oui,Orange,"mountain,volcano",1
+Carapuce,Eau,None,1,Non,"Bleu, Marron",freshwater,1
+Carabaffe,Eau,None,2,Non,"Bleu, Marron",freshwater,1
+Tortank,Eau,None,3,Oui,"Bleu, Marron",freshwater,1
+Chenipan,Insecte,None,1,Non,"Vert, Jaune","forest,jungle",1
+Chrysacier,Insecte,None,2,Non,Vert,"forest,jungle",1
+Papilusion,Insecte,Vol,3,Oui,"Blanc, Violet","forest,jungle",1
+Aspicot,Insecte,Poison,1,Non,Marron,forest,1
+Coconfort,Insecte,Poison,2,Non,Jaune,forest,1
+Dardargnan,Insecte,Poison,3,Oui,Jaune,forest,1
+Roucool,Normal,Vol,1,Non,Marron,"city,forest,grassland",1
+Roucoups,Normal,Vol,2,Non,Marron,"grassland,forest",1
+Roucarnage,Normal,Vol,3,Oui,Marron,"grassland,forest",1
+Rattata,Normal,None,1,Non,Violet,"city,grassland",1
+Rattatac,Normal,None,2,Oui,Marron,"city,grassland",1
+Piafabec,Normal,Vol,1,Non,"Marron, Rouge",desertbadlands,1
+Rapasdepic,Normal,Vol,2,Oui,Marron,desertbadlands,1
+Abo,Poison,None,1,Non,"Violet, Jaune","grassland,jungle",1
+Arbok,Poison,None,2,Oui,Violet,"grassland,jungle",1
+Pikachu,Électrik,None,2,Non,Jaune,"forest,industrial",1
+Raichu,Électrik,None,3,Oui,"Orange, Jaune","forest,industrial",1
+Sabelette,Sol,None,1,Non,Jaune,"cave,desertbadlands,grassland",1
+Sablaireau,Sol,None,2,Oui,"Jaune, Marron","cave,desertbadlands",1
+Nidoran♀,Poison,None,1,Non,Bleu,grassland,1
+Nidorina,Poison,None,2,Non,Bleu,grassland,1
+Nidoqueen,Poison,Sol,3,Oui,Bleu,grassland,1
+Nidoran♂,Poison,None,1,Non,Violet,grassland,1
+Nidorino,Poison,None,2,Non,Violet,grassland,1
+Nidoking,Poison,Sol,3,Oui,Violet,grassland,1
+Mélofée,Normal,None,2,Non,Rose,mountain,1
+Mélodelfe,Normal,None,3,Oui,Rose,mountain,1
+Goupix,Feu,None,1,Non,Orange,"grassland,ruin,volcano",1
+Feunard,Feu,None,2,Oui,Jaune,"grassland,ruin,volcano",1
+Rondoudou,Normal,None,2,Non,Rose,"grassland,forest",1
+Grodoudou,Normal,None,3,Oui,Rose,"grassland,forest",1
+Nosferapti,Poison,Vol,1,Non,"Bleu, Violet",cave,1
+Nosferalto,Poison,Vol,2,Non,"Bleu, Violet",cave,1
+Mystherbe,Plante,Poison,1,Non,"Bleu, Vert","grassland,jungle,swamp",1
+Ortide,Plante,Poison,2,Non,"Bleu, Orange","grassland,jungle,swamp",1
+Rafflesia,Plante,Poison,3,Oui,"Rouge, Bleu","grassland,jungle,swamp",1
+Paras,Insecte,Plante,1,Non,"Orange, Rouge","cave,forest",1
+Parasect,Insecte,Plante,2,Oui,"Rouge, Orange","cave,forest",1
+Mimitoss,Insecte,Poison,1,Non,Violet,"forest,jungle",1
+Aéromite,Insecte,Poison,2,Oui,Violet,"forest,jungle",1
+Taupiqueur,Sol,None,1,Non,Marron,"cave,desertbadlands",1
+Triopikeur,Sol,None,2,Oui,Marron,"cave,desertbadlands",1
+Miaouss,Normal,None,1,Non,Jaune,"city,forest",1
+Persian,Normal,None,2,Oui,Jaune,"city,forest",1
+Psykokwak,Eau,None,1,Non,Jaune,freshwater,1
+Akwakwak,Eau,None,2,Oui,Bleu,freshwater,1
+Férosinge,Combat,None,1,Non,Marron,"forest,jungle,mountain",1
+Colossinge,Combat,None,2,Non,Marron,"forest,jungle,mountain",1
+Caninos,Feu,None,1,Non,"Orange, Jaune","grassland,volcano",1
+Arcanin,Feu,None,2,Oui,"Orange, Marron","grassland,volcano",1
+Ptitard,Eau,None,1,Non,"Bleu, Blanc","freshwater,swamp",1
+Têtarte,Eau,None,2,Non,"Bleu, Blanc","freshwater,swamp",1
+Tartard,Eau,Combat,3,Oui,"Bleu, Blanc","freshwater,swamp",1
+Abra,Psy,None,1,Non,"Jaune, Marron","city,ruin",1
+Kadabra,Psy,None,2,Non,"Jaune, Marron","city,ruin",1
+Alakazam,Psy,None,3,Oui,"Jaune, Marron","city,ruin",1
+Machoc,Combat,None,1,Non,Gris,"cave,mountain",1
+Machopeur,Combat,None,2,Non,Gris,"cave,mountain",1
+Mackogneur,Combat,None,3,Oui,Gris,"cave,mountain",1
+Chétiflor,Plante,Poison,1,Non,"Vert, Jaune","jungle,swamp",1
+Boustiflor,Plante,Poison,2,Non,"Vert, Jaune","jungle,swamp",1
+Empiflor,Plante,Poison,3,Oui,"Vert, Jaune","jungle,swamp",1
+Tentacool,Eau,Poison,1,Non,"Bleu, Rouge",ocean,1
+Tentacruel,Eau,Poison,2,Oui,"Bleu, Rouge",ocean,1
+Racaillou,Roche,Sol,1,Non,Gris,"cave,mountain,volcano",1
+Gravalanch,Roche,Sol,2,Non,Gris,"cave,mountain,volcano",1
+Grolem,Roche,Sol,3,Oui,"Gris, Marron","cave,mountain,volcano",1
+Ponyta,Feu,None,1,Non,"Jaune, Orange",grassland,1
+Galopa,Feu,None,2,Oui,"Jaune, Orange",grassland,1
+Ramoloss,Eau,Psy,1,Non,Rose,"beach,freshwater",1
+Flagadoss,Eau,Psy,2,Oui,"Rose, Gris","beach,freshwater",1
+Magnéti,Électrik,Acier,1,Non,Gris,industrial,1
+Magnéton,Électrik,Acier,2,Non,Gris,industrial,1
+Canarticho,Normal,Vol,1,Non,Marron,"forest,grassland,freshwater",1
+Doduo,Normal,Vol,1,Non,Marron,grassland,1
+Dodrio,Normal,Vol,2,Oui,Marron,grassland,1
+Otaria,Eau,None,1,Non,Blanc,polarsea,1
+Lamantine,Eau,Glace,2,Oui,Blanc,polarsea,1
+Tadmorv,Poison,None,1,Non,Violet,city,1
+Grotadmorv,Poison,None,2,Oui,Violet,city,1
+Kokiyas,Eau,None,1,Non,Violet,ocean,1
+Crustabri,Eau,Glace,2,Oui,Violet,ocean,1
+Fantominus,Spectre,Poison,1,Non,Violet,"city,forest,ruin",1
+Spectrum,Spectre,Poison,2,Non,Violet,"city,forest,ruin",1
+Ectoplasma,Spectre,Poison,3,Oui,Violet,"city,forest,ruin",1
+Onix,Roche,Sol,1,Non,Gris,"cave,mountain",1
+Soporifik,Psy,None,1,Non,"Jaune, Marron","forest,grassland,jungle",1
+Hypnomade,Psy,None,2,Oui,Jaune,"forest,grassland,jungle",1
+Krabby,Eau,None,1,Non,"Orange, Marron",beach,1
+Krabboss,Eau,None,2,Oui,"Orange, Marron",beach,1
+Voltorbe,Électrik,None,1,Non,"Rouge, Blanc",industrial,1
+Électrode,Électrik,None,2,Oui,"Blanc, Rouge",industrial,1
+Noeunoeuf,Plante,Psy,1,Non,Rose,"forest,jungle",1
+Noadkoko,Plante,Psy,2,Oui,"Marron, Vert","beach,forest,jungle",1
+Osselait,Sol,None,1,Non,Marron,"desertbadlands,cave,mountain",1
+Ossatueur,Sol,None,2,Oui,Marron,"desertbadlands,cave,mountain",1
+Kicklee,Combat,None,2,Oui,Marron,"city,mountain",1
+Tygnon,Combat,None,2,Oui,Marron,"city,mountain",1
+Excelangue,Normal,None,1,Non,Rose,forest,1
+Smogo,Poison,None,1,Non,Violet,"city,volcano",1
+Smogogo,Poison,None,2,Oui,Violet,"city,volcano",1
+Rhinocorne,Sol,Roche,1,Non,Gris,"desertbadlands,grassland,mountain",1
+Rhinoféros,Sol,Roche,2,Non,Gris,"desertbadlands,grassland,mountain",1
+Leveinard,Normal,None,2,Non,Rose,"city,grassland,forest",1
+Saquedeneu,Plante,None,1,Non,Bleu,"grassland,jungle,swamp",1
+Kangourex,Normal,None,1,Oui,Marron,"desertbadlands,jungle",1
+Hypotrempe,Eau,None,1,Non,Bleu,"ocean,tropicalSea",1
+Hypocéan,Eau,None,2,Non,Bleu,"ocean,tropicalSea",1
+Poissirène,Eau,None,1,Non,"Blanc, Orange","freshwater,ocean",1
+Poissoroy,Eau,None,2,Oui,"Rouge, Blanc","freshwater,ocean",1
+Stari,Eau,None,1,Non,"Marron, Jaune","ocean,tropicalSea",1
+Staross,Eau,Psy,2,Oui,"Violet, Rouge","ocean,tropicalSea",1
+M. Mime,Psy,None,2,Non,"Rose, Blanc",city,1
+Insécateur,Insecte,Vol,1,Non,Vert,"forest,jungle",1
+Lippoutou,Glace,Psy,2,Oui,"Violet, Rouge",ice,1
+Élektek,Électrik,None,2,Non,"Jaune, Noir","grassland,industrial",1
+Magmar,Feu,None,2,Non,"Rouge, Jaune",volcano,1
+Scarabrute,Insecte,None,1,Oui,Marron,"desertbadlands,forest",1
+Tauros,Normal,None,1,Oui,Marron,grassland,1
+Magicarpe,Eau,None,1,Non,Orange,"freshwater,ocean",1
+Léviator,Eau,Vol,2,Oui,Bleu,"freshwater,ocean",1
+Lokhlass,Eau,Glace,1,Oui,Bleu,ocean,1
+Métamorph,Normal,None,1,Oui,Violet,"city,forest",1
+Évoli,Normal,None,1,Non,Marron,"city,forest",1
+Aquali,Eau,None,2,Oui,Bleu,freshwater,1
+Voltali,Électrik,None,2,Oui,Jaune,industrial,1
+Pyroli,Feu,None,2,Oui,"Orange, Jaune",grassland,1
+Porygon,Normal,None,1,Non,"Rose, Bleu",city,1
+Amonita,Roche,Eau,1,Non,"Bleu, Marron","ocean,tropicalSea",1
+Amonistar,Roche,Eau,2,Oui,"Bleu, Marron","ocean,tropicalSea",1
+Kabuto,Roche,Eau,1,Non,"Marron, Noir","beach,ocean",1
+Kabutops,Roche,Eau,2,Oui,Marron,"beach,ocean",1
+Ptéra,Roche,Vol,1,Oui,"Gris, Violet","forest,mountain",1
+Ronflex,Normal,None,2,Oui,"Bleu, Blanc","forest,mountain",1
+Artikodin,Glace,Vol,1,Oui,Bleu,"ice,mountain",1
+Électhor,Électrik,Vol,1,Oui,Jaune,"industrial,mountain",1
+Sulfura,Feu,Vol,1,Oui,"Orange, Rouge","mountain,volcano",1
+Minidraco,Normal,None,1,Non,"Rose, Bleu",city,1
+Draco,Normal,None,1,Non,"Rose, Bleu",city,1
+Dracolosse,Dragon,Vol,3,Oui,Orange,"freshwater,ocean",1
+Mewtwo,Psy,None,1,Oui,Violet,"cave,industrial",1
+Mew,Psy,None,1,Oui,Rose,"forest,jungle",1
+Germignon,Normal,None,1,Non,"Rose, Bleu",city,1
+Macronium,Normal,None,1,Non,"Rose, Bleu",city,1
+Méganium,Normal,None,1,Non,"Rose, Bleu",city,1
+Héricendre,Feu,None,1,Non,"Jaune, Bleu","grassland,volcano",2
+Feurisson,Feu,None,2,Non,"Jaune, Bleu","grassland,volcano",2
+Typhlosion,Feu,None,3,Oui,"Jaune, Bleu","grassland,volcano",2
+Kaiminus,Eau,None,1,Non,Bleu,"freshwater,swamp",2
+Crocrodil,Eau,None,2,Non,Bleu,"freshwater,swamp",2
+Aligatueur,Eau,None,3,Oui,Bleu,"freshwater,swamp",2
+Fouinette,Normal,None,1,Non,Marron,"grassland,forest,ice",2
+Fouinar,Normal,None,2,Oui,Marron,"grassland,forest,ice",2
+Hoothoot,Normal,Vol,1,Non,Marron,"forest,ice",2
+Noarfang,Normal,Vol,2,Oui,Marron,"forest,ice",2
+Coxy,Insecte,Vol,1,Non,Rouge,"forest,jungle",2
+Coxyclaque,Insecte,Vol,2,Oui,Rouge,"forest,jungle",2
+Mimigal,Insecte,Poison,1,Non,Vert,forest,2
+Migalos,Insecte,Poison,2,Oui,"Rouge, Jaune",forest,2
+Nostenfer,Poison,Vol,3,Oui,"Violet, Bleu","cave,forest",2
+Loupio,Eau,Électrik,1,Non,"Bleu, Jaune",ocean,2
+Lanturn,Eau,Électrik,2,Oui,"Bleu, Jaune",ocean,2
+Pichu,Électrik,None,1,Non,Jaune,"city,forest,industrial",2
+Mélo,Normal,None,2,Non,Rose,mountain,1
+Toudoudou,Normal,None,1,Non,Rose,"grassland,forest",2
+Togepi,Normal,None,1,Non,Blanc,forest,2
+Togetic,Normal,Vol,2,Non,Blanc,forest,2
+Natu,Psy,Vol,1,Non,"Vert, Rouge","desertbadlands,jungle,ruin",2
+Xatu,Psy,Vol,2,Oui,"Vert, Blanc","desertbadlands,jungle,ruin",2
+Wattouat,Électrik,None,1,Non,"Bleu, Jaune",grassland,2
+Lainergie,Électrik,None,2,Non,"Rose, Blanc",grassland,2
+Pharamp,Électrik,None,3,Oui,Jaune,grassland,2
+Joliflor,Plante,None,3,Oui,"Vert, Jaune","grassland,jungle",2
+Marill,Eau,None,2,Non,Bleu,"freshwater,swamp",2
+Azumarill,Eau,None,3,Oui,"Bleu, Blanc","freshwater,swamp",2
+Simularbre,Électrik,None,3,Oui,Jaune,grassland,2
+Tarpaud,Eau,None,3,Oui,"Vert, Jaune","freshwater,swamp",2
+Granivol,Plante,Vol,1,Non,Rose,"grassland,forest,mountain",2
+Floravol,Plante,Vol,2,Non,Vert,"grassland,forest,mountain",2
+Cotovol,Plante,Vol,3,Oui,"Bleu, Jaune","grassland,forest,mountain",2
+Capumain,Normal,None,1,Non,Violet,"forest,jungle",2
+Tournegrin,Plante,None,1,Non,"Jaune, Marron",grassland,2
+Héliatronc,Plante,None,2,Oui,"Jaune, Vert",grassland,2
+Yanma,Insecte,Vol,1,Non,"Rouge, Vert","forest,swamp",2
+Axoloto,Eau,Sol,1,Non,Bleu,"freshwater,swamp",2
+Maraiste,Eau,Sol,2,Oui,Bleu,"freshwater,swamp",2
+Mentali,Psy,None,2,Oui,Violet,city,2
+Noctali,Ténèbres,None,2,Oui,"Noir, Jaune",city,2
+Cornèbre,Ténèbres,Vol,1,Non,Noir,"city,forest,swamp",2
+Roigada,Eau,Psy,2,Oui,Rose,"beach,freshwater",2
+Feuforêve,Spectre,None,1,Non,Bleu,"cave,forest",2
+Zarbi,Psy,None,1,Oui,Noir,ruin,2
+Qulbutoké,Psy,None,2,Oui,Bleu,"cave,forest",2
+Girafarig,Normal,Psy,1,Non,"Jaune, Marron","grassland,mountain",2
+Pomdepik,Insecte,None,1,Non,Bleu,forest,2
+Foretress,Insecte,Acier,2,Oui,"Gris, Rouge",forest,2
+Insolourdo,Normal,None,1,Non,Jaune,cave,2
+Scorplane,Sol,Vol,1,Non,Violet,"desertbadlands,forest,mountain",2
+Steelix,Acier,Sol,2,Oui,Gris,"cave,mountain",2
+Snubbull,Normal,None,1,Non,Rose,"city,forest",2
+Granbull,Normal,None,2,Oui,Violet,"city,forest",2
+Qwilfish,Eau,Poison,1,Oui,"Bleu, Jaune","ocean,tropicalSea",2
+Cizayox,Insecte,Acier,2,Oui,Rouge,"forest,grassland",2
+Caratroc,Insecte,Roche,1,Oui,"Rouge, Jaune","beach,cave,mountain",2
+Scarhino,Insecte,Combat,1,Oui,Bleu,forest,2
+Farfuret,Ténèbres,Glace,1,Non,Noir,ice,2
+Teddiursa,Normal,None,1,Non,Marron,"forest,swamp,ice",2
+Ursaring,Normal,None,2,Non,Marron,"forest,swamp,ice",2
+Limagma,Feu,None,1,Non,Rouge,volcano,2
+Volcaropod,Feu,Roche,2,Oui,"Rouge, Gris",volcano,2
+Marcacrin,Glace,Sol,1,Non,Marron,ice,2
+Cochignon,Glace,Sol,2,Non,Marron,ice,2
+Corayon,Eau,Roche,1,Oui,Rose,tropicalSea,2
+Rémoraid,Eau,None,1,Non,Bleu,"ocean,freshwater",2
+Octillery,Eau,None,2,Oui,Rouge,"ocean,tropicalSea",2
+Cadoizo,Glace,Vol,1,Oui,"Rouge, Blanc",ice,2
+Démanta,Eau,Vol,2,Oui,"Bleu, Blanc","ocean,tropicalSea",2
+Airmure,Acier,Vol,1,Oui,Gris,"desertbadlands,mountain,ice",2
+Malosse,Ténèbres,Feu,1,Non,"Noir, Orange","desertbadlands,forest,volcano",2
+Démolosse,Ténèbres,Feu,2,Oui,"Noir, Orange","desertbadlands,forest,volcano",2
+Hyporoi,Eau,Dragon,3,Oui,Bleu,"ocean,tropicalSea",2
+Phanpy,Sol,None,1,Non,Bleu,"desertbadlands,grassland",2
+Donphan,Sol,None,2,Oui,Gris,"desertbadlands,grassland",2
+Porygon2,Normal,None,2,Non,"Rose, Bleu",city,2
+Cerfrousse,Normal,None,1,Non,Marron,"forest,mountain,ice",2
+Queulorior,Normal,None,1,Oui,Blanc,"city,forest",2
+Debugant,Combat,None,1,Non,Rose,"city,mountain",2
+Kapoera,Combat,None,2,Oui,"Marron, Bleu","city,mountain",2
+Lippouti,Glace,Psy,1,Non,"Rose, Jaune",ice,2
+Élekid,Électrik,None,1,Non,Jaune,"grassland,industrial",2
+Magby,Feu,None,1,Non,Rouge,volcano,2
+Écrémeuh,Normal,None,1,Oui,Rose,grassland,2
+Leuphorie,Normal,None,3,Oui,"Rose, Blanc","city,grassland",2
+Raikou,Électrik,None,1,Oui,Jaune,"grassland,mountain",2
+Entei,Feu,None,1,Oui,Marron,"grassland,volcano",2
+Suicune,Eau,None,1,Oui,"Bleu, Blanc","grassland,freshwater",2
+Embrylex,Roche,Sol,1,Non,Vert,"desertbadlands,cave,mountain",2
+Ymphect,Roche,Sol,2,Non,Gris,"desertbadlands,cave,mountain",2
+Tyranocif,Roche,Ténèbres,3,Oui,Vert,"desertbadlands,cave,mountain",2
+Ho-Oh,Feu,Vol,1,Oui,"Rouge, Jaune","ruin,sky",2
+Lugia,Psy,Vol,1,Oui,Blanc,ocean,2
+Celebi,Psy,Plante,1,Oui,Vert,forest,2
+Arcko,Plante,None,1,Non,Vert,"forest,jungle",3
+Massko,Plante,None,2,Non,Vert,"forest,jungle",3
+Jungko,Plante,None,3,Oui,Vert,"forest,jungle",3
+Poussifeu,Feu,None,1,Non,"Orange, Jaune","grassland,volcano",3
+Galifeu,Feu,Combat,2,Non,"Orange, Jaune","grassland,volcano",3
+Braségali,Feu,Combat,3,Oui,"Rouge, Jaune","grassland,volcano",3
+Gobou,Eau,None,1,Non,"Bleu, Orange","beach,swamp",3
+Flobio,Eau,Sol,2,Non,"Bleu, Orange","beach,swamp",3
+Laggron,Eau,Sol,3,Oui,"Bleu, Orange","beach,swamp",3
+Medhyèna,Ténèbres,None,1,Non,"Gris, Noir","forest,grassland,ice",3
+Grahyèna,Ténèbres,None,2,Oui,"Gris, Noir","forest,grassland,ice",3
+Zigzaton,Normal,None,1,Non,Marron,"city,grassland,forest",3
+Linéon,Normal,None,2,Oui,"Blanc, Marron","city,grassland,forest",3
+Chenipotte,Insecte,None,1,Non,Rouge,forest,3
+Armulys,Insecte,None,2,Non,Blanc,forest,3
+Charmillon,Insecte,Vol,3,Oui,"Noir, Jaune",forest,3
+Blindalys,Insecte,None,2,Non,Violet,forest,3
+Papinox,Insecte,Poison,3,Oui,"Vert, Violet",forest,3
+Nénupiot,Eau,Plante,1,Non,"Bleu, Vert","freshwater,swamp",3
+Lombre,Eau,Plante,2,Non,"Vert, Bleu","freshwater,swamp",3
+Ludicolo,Eau,Plante,3,Oui,"Vert, Jaune","freshwater,swamp",3
+Grainipiot,Plante,None,1,Non,Marron,forest,3
+Pifeuil,Plante,Ténèbres,2,Non,Marron,forest,3
+Tengalice,Plante,Ténèbres,3,Oui,"Marron, Blanc",forest,3
+Nirondelle,Normal,Vol,1,Non,Bleu,grassland,3
+Hélédelle,Normal,Vol,2,Oui,Bleu,grassland,3
+Goélise,Eau,Vol,1,Non,Blanc,"beach,ocean",3
+Bekipan,Eau,Vol,2,Oui,"Jaune, Blanc","beach,ocean",3
+Tarsal,Psy,None,1,Non,"Blanc, Vert","city,forest",3
+Kirlia,Psy,None,2,Non,"Blanc, Vert","city,forest",3
+Gardevoir,Psy,None,3,Oui,"Blanc, Vert","city,forest",3
+Arakdo,Insecte,Eau,1,Non,Bleu,"freshwater,swamp",3
+Maskadra,Insecte,Vol,2,Oui,"Bleu, Orange","freshwater,swamp",3
+Balignon,Plante,None,1,Non,"Marron, Vert",forest,3
+Chapignon,Plante,Combat,2,Oui,"Vert, Rouge",forest,3
+Parecool,Normal,None,1,Non,Marron,"forest,jungle",3
+Vigoroth,Normal,None,2,Non,Blanc,"forest,jungle",3
+Monaflèmit,Normal,None,3,Oui,Marron,"forest,jungle",3
+Ningale,Insecte,Sol,1,Non,Blanc,forest,3
+Ninjask,Insecte,Vol,2,Oui,"Jaune, Blanc",forest,3
+Munja,Insecte,Spectre,2,Oui,Marron,forest,3
+Chuchmur,Normal,None,1,Non,"Rose, Jaune",cave,3
+Ramboum,Normal,None,2,Non,"Violet, Jaune",cave,3
+Brouhabam,Normal,None,3,Oui,"Violet, Jaune",cave,3
+Makuhita,Combat,None,1,Non,Jaune,mountain,3
+Hariyama,Combat,None,2,Oui,"Jaune, Orange",mountain,3
+Azurill,Normal,None,1,Non,Bleu,"freshwater,swamp",3
+Tarinor,Roche,None,1,Non,"Gris, Rouge","cave,industrial",3
+Skitty,Normal,None,1,Non,Rose,"city,forest",3
+Delcatty,Normal,None,2,Oui,"Jaune, Violet","city,forest",3
+Ténéfix,Ténèbres,Spectre,1,Oui,Violet,cave,3
+Mysdibule,Acier,None,1,Oui,"Jaune, Noir",cave,3
+Galekid,Acier,Roche,1,Non,Gris,"cave,mountain",3
+Galegon,Acier,Roche,2,Non,"Gris, Noir","cave,mountain",3
+Galeking,Acier,Roche,3,Oui,"Noir, Gris","cave,mountain",3
+Méditikka,Combat,Psy,1,Non,"Blanc, Bleu","grassland,mountain",3
+Charmina,Combat,Psy,2,Oui,"Rose, Gris","grassland,mountain",3
+Dynavolt,Électrik,None,1,Non,Vert,grassland,3
+Élecsprint,Électrik,None,2,Oui,"Bleu, Jaune",grassland,3
+Posipi,Électrik,None,1,Oui,"Jaune, Rouge","city,grassland,industrial",3
+Négapi,Électrik,None,1,Oui,"Jaune, Bleu","city,grassland,industrial",3
+Muciole,Insecte,None,1,Oui,"Bleu, Gris","grassland,forest",3
+Lumivole,Insecte,None,1,Oui,"Bleu, Violet","grassland,forest",3
+Rosélia,Plante,Poison,2,Non,Vert,grassland,3
+Gloupti,Poison,None,1,Non,Vert,"city,grassland,swamp",3
+Avaltout,Poison,None,2,Oui,Violet,"city,grassland,swamp",3
+Carvanha,Eau,Ténèbres,1,Non,"Bleu, Rouge","ocean,freshwater,tropicalSea",3
+Sharpedo,Eau,Ténèbres,2,Oui,Bleu,"ocean,tropicalSea",3
+Wailmer,Eau,None,1,Non,Bleu,"beach,ocean",3
+Wailord,Eau,None,2,Oui,"Bleu, Blanc",ocean,3
+Chamallot,Feu,Sol,1,Non,Jaune,volcano,3
+Camérupt,Feu,Sol,2,Oui,Orange,volcano,3
+Chartor,Feu,None,1,Oui,"Orange, Noir",volcano,3
+Spoink,Psy,None,1,Non,"Gris, Rose","desertbadlands,mountain",3
+Groret,Psy,None,2,Oui,"Violet, Noir","desertbadlands,mountain",3
+Spinda,Normal,None,1,Oui,"Marron, Rouge","grassland,mountain",3
+Kraknoix,Sol,None,1,Non,Orange,desertbadlands,3
+Vibraninf,Sol,Dragon,2,Non,"Vert, Jaune",desertbadlands,3
+Libégon,Sol,Dragon,3,Oui,"Vert, Rouge",desertbadlands,3
+Cacnea,Plante,None,1,Non,Vert,desertbadlands,3
+Cacturne,Plante,Ténèbres,2,Oui,Vert,desertbadlands,3
+Tylton,Normal,Vol,1,Non,"Bleu, Blanc","sky,mountain",3
+Altaria,Dragon,Vol,2,Oui,"Bleu, Blanc","grassland,forest,volcano",3
+Mangriff,Normal,None,1,Oui,"Blanc, Rouge",grassland,3
+Séviper,Poison,None,1,Oui,"Noir, Jaune",grassland,3
+Séléroc,Roche,Psy,1,Oui,Jaune,"cave,ruin",3
+Solaroc,Roche,Psy,1,Oui,"Orange, Jaune","cave,ruin",3
+Barloche,Eau,Sol,1,Non,"Gris, Bleu","cave,freshwater,swamp",3
+Barbicha,Eau,Sol,2,Oui,Bleu,"cave,freshwater,swamp",3
+Écrapince,Eau,Sol,2,Oui,Bleu,"cave,freshwater,swamp",3
+Colhomard,Eau,Ténèbres,2,Oui,Rouge,freshwater,3
+Balbuto,Sol,Psy,1,Non,"Marron, Rouge",ruin,3
+Kaorine,Sol,Psy,2,Oui,"Noir, Rouge",ruin,3
+Lilia,Roche,Plante,1,Non,Violet,"ocean,tropicalSea",3
+Vacilys,Roche,Plante,2,Oui,Vert,"ocean,tropicalSea",3
+Anorith,Roche,Insecte,1,Non,"Gris, Rouge","ocean,tropicalSea",3
+Armaldo,Roche,Insecte,2,Oui,Gris,"beach,ocean",3
+Barpau,Eau,None,1,Non,Marron,"freshwater,ocean",3
+Milobellus,Eau,None,2,Oui,"Bleu, Rouge","freshwater,ocean",3
+Morphéo,Normal,None,1,Oui,Gris,city,3
+Kecleon,Normal,None,1,Oui,Vert,"grassland,forest,jungle",3
+Polichombr,Spectre,None,1,Non,Noir,city,3
+Branette,Spectre,None,2,Oui,Noir,city,3
+Skelénox,Spectre,None,1,Non,Gris,"desertbadlands,forest,ruin",3
+Téraclope,Spectre,None,2,Non,Gris,"desertbadlands,forest,ruin",3
+Tropius,Plante,Vol,1,Oui,"Vert, Marron",jungle,3
+Éoko,Psy,None,2,Oui,"Bleu, Rouge","mountain,forest,ruin",3
+Absol,Ténèbres,None,1,Oui,"Blanc, Noir","mountain,ruin",3
+Okéoké,Psy,None,1,Non,Bleu,"cave,forest",3
+Stalgamin,Glace,None,1,Non,"Jaune, Noir",ice,3
+Oniglali,Glace,None,2,Oui,"Blanc, Noir",ice,3
+Obalie,Glace,Eau,1,Non,Bleu,"ice,polarsea",3
+Phogleur,Glace,Eau,2,Non,Bleu,"ice,polarsea",3
+Kaimorse,Glace,Eau,3,Oui,Bleu,"ice,polarsea",3
+Coquiperl,Eau,None,1,Non,Bleu,"ocean,tropicalSea",3
+Serpang,Eau,None,2,Oui,"Bleu, Orange",ocean,3
+Rosabyss,Eau,None,2,Oui,Rose,"ocean,tropicalSea",3
+Relicanth,Eau,Roche,1,Oui,Marron,ocean,3
+Lovdisc,Eau,None,1,Oui,Rose,tropicalSea,3
+Draby,Dragon,None,1,Non,Bleu,"desertbadlands,cave",3
+Drackhaus,Dragon,None,2,Non,Gris,"desertbadlands,cave",3
+Drattak,Dragon,Vol,3,Oui,"Bleu, Rouge","desertbadlands,cave",3
+Terhal,Acier,Psy,1,Non,Bleu,"desertbadlands,industrial",3
+Métang,Acier,Psy,2,Non,Bleu,"desertbadlands,industrial",3
+Métalosse,Acier,Psy,3,Oui,Bleu,"desertbadlands,industrial",3
+Regirock,Roche,None,1,Oui,"Marron, Orange","cave,ruin",3
+Regice,Glace,None,1,Oui,Bleu,"cave,ruin",3
+Registeel,Acier,None,1,Oui,"Gris, Noir","cave,ruin",3
+Latias,Dragon,Psy,1,Oui,"Rouge, Blanc","freshwater,sky",3
+Latios,Dragon,Psy,1,Oui,"Bleu, Blanc","freshwater,sky",3
+Kyogre,Eau,None,1,Oui,Bleu,"cave,ocean",3
+Groudon,Sol,None,1,Oui,Rouge,"cave,volcano",3
+Rayquaza,Dragon,Vol,1,Oui,Vert,"ruin,sky",3
+Jirachi,Acier,Psy,1,Oui,Jaune,"cave,ruin",3
+Deoxys,Psy,None,1,Oui,"Orange, Bleu","island,ruin",3
+Tortipouss,Plante,None,1,Non,Vert,forest,4
+Boskara,Plante,None,2,Non,"Vert, Jaune",forest,4
+Torterra,Plante,Sol,3,Oui,"Vert, Marron",forest,4
+Ouisticram,Feu,None,1,Non,Orange,"mountain,volcano",4
+Chimpenfeu,Feu,Combat,2,Non,Orange,"mountain,volcano",4
+Simiabraz,Feu,Combat,3,Oui,Orange,"mountain,volcano",4
+Tiplouf,Eau,None,1,Non,Bleu,polarsea,4
+Prinplouf,Eau,None,2,Non,Bleu,polarsea,4
+Pingoléon,Eau,Acier,3,Oui,Bleu,polarsea,4
+Étourmi,Normal,Vol,1,Non,"Noir, Blanc","city,grassland",4
+Étourvol,Normal,Vol,2,Non,"Noir, Blanc","grassland,forest,mountain",4
+Étouraptor,Normal,Vol,3,Oui,"Noir, Blanc","grassland,forest,mountain",4
+Keunotor,Normal,None,1,Non,Marron,freshwater,4
+Castorno,Normal,Eau,2,Oui,Marron,freshwater,4
+Crikzik,Insecte,None,1,Non,Rouge,grassland,4
+Mélokrik,Insecte,None,2,Oui,"Rouge, Noir",grassland,4
+Lixy,Électrik,None,1,Non,"Bleu, Noir",grassland,4
+Luxio,Électrik,None,2,Non,"Bleu, Noir",grassland,4
+Luxray,Électrik,None,3,Oui,"Noir, Bleu",grassland,4
+Rozbouton,Plante,Poison,1,Non,"Vert, Jaune",grassland,4
+Roserade,Plante,Poison,3,Oui,Vert,grassland,4
+Kranidos,Roche,None,1,Non,"Gris, Bleu",jungle,4
+Charkos,Roche,None,2,Oui,"Gris, Bleu",jungle,4
+Dinoclier,Roche,Acier,1,Non,"Gris, Jaune",forest,4
+Bastiodon,Roche,Acier,2,Oui,"Gris, Jaune",forest,4
+Cheniti,Insecte,None,1,Non,Vert,"city,forest",4
+Cheniselle,Insecte,Plante,2,Oui,Vert,"city,forest",4
+Papilord,Insecte,Vol,2,Oui,Jaune,forest,4
+Apitrini,Insecte,Vol,1,Non,Jaune,"cave,forest",4
+Apireine,Insecte,Vol,2,Oui,"Jaune, Noir","cave,forest",4
+Pachirisu,Électrik,None,1,Oui,Blanc,"forest,grassland,city",4
+Mustébouée,Eau,None,1,Non,Orange,"freshwater,beach",4
+Mustéflott,Eau,None,2,Oui,Orange,"freshwater,beach",4
+Ceribou,Plante,None,1,Non,Rose,forest,4
+Ceriflor,Plante,None,2,Oui,Violet,forest,4
+Sancoki,Eau,None,1,Non,Rose,"beach,tropicalSea",4
+Tritosor,Eau,Sol,2,Oui,"Rose, Marron","beach,tropicalSea",4
+Capidextre,Normal,None,2,Oui,Violet,"forest,jungle",4
+Baudrive,Spectre,Vol,1,Non,Violet,"mountain,volcano",4
+Grodrive,Spectre,Vol,2,Oui,Violet,"mountain,volcano",4
+Laporeille,Normal,None,1,Non,Marron,"forest,grassland",4
+Lockpin,Normal,None,2,Oui,Marron,"forest,grassland",4
+Magirêve,Spectre,None,2,Oui,Violet,"cave,forest",4
+Corboss,Ténèbres,Vol,2,Oui,Noir,"city,forest,swamp",4
+Chaglam,Normal,None,1,Non,Gris,"city,forest",4
+Chaffreux,Normal,None,2,Oui,"Gris, Blanc","city,forest",4
+Korillon,Psy,None,1,Non,Jaune,"mountain,cave,ruin",4
+Moufouette,Poison,Ténèbres,1,Non,Violet,forest,4
+Moufflair,Poison,Ténèbres,2,Oui,Violet,forest,4
+Archéomire,Acier,Psy,1,Non,Bleu,"cave,ruin",4
+Archéodong,Acier,Psy,2,Oui,Gris,"cave,ruin",4
+Manzaï,Roche,None,1,Non,Marron,"forest,mountain",4
+Mime Jr.,Psy,None,1,Non,Rose,city,4
+Ptiravi,Normal,None,1,Non,Rose,"grassland,forest",4
+Pijako,Normal,Vol,1,Oui,"Noir, Vert","beach,forest,jungle",4
+Spiritomb,Spectre,Ténèbres,1,Oui,Violet,ruin,4
+Griknot,Dragon,Sol,1,Non,"Bleu, Rouge","desertbadlands,cave,volcano",4
+Carmache,Dragon,Sol,2,Non,"Bleu, Rouge","desertbadlands,cave,volcano",4
+Carchacrok,Dragon,Sol,3,Oui,"Bleu, Rouge","desertbadlands,cave,volcano",4
+Goinfrex,Normal,None,1,Non,Bleu,"city,forest,mountain",4
+Riolu,Combat,None,1,Non,"Bleu, Noir",mountain,4
+Lucario,Combat,Acier,2,Oui,"Bleu, Noir",mountain,4
+Hippopotas,Sol,None,1,Non,Marron,desertbadlands,4
+Hippodocus,Sol,None,2,Oui,"Marron, Noir",desertbadlands,4
+Rapion,Poison,Insecte,1,Non,Violet,"desertbadlands,swamp",4
+Drascore,Poison,Ténèbres,2,Oui,Violet,"desertbadlands,swamp",4
+Cradopaud,Poison,Combat,1,Non,Bleu,"jungle,swamp",4
+Coatox,Poison,Combat,2,Oui,Bleu,"jungle,swamp",4
+Vortente,Plante,None,1,Oui,Vert,"forest,swamp",4
+Écayon,Eau,None,1,Non,Bleu,"ocean,freshwater,tropicalSea",4
+Luminéon,Eau,None,2,Oui,Bleu,ocean,4
+Babimanta,Eau,Vol,1,Non,Bleu,"ocean,tropicalSea",4
+Blizzi,Plante,Glace,1,Non,Blanc,ice,4
+Blizzaroi,Plante,Glace,2,Oui,Blanc,ice,4
+Dimoret,Ténèbres,Glace,2,Oui,"Noir, Rouge",ice,4
+Magnézone,Ténèbres,Glace,2,Oui,"Noir, Rouge",ice,4
+Coudlangue,Électrik,Acier,3,Oui,Gris,industrial,4
+Rhinastoc,Sol,Roche,3,Oui,"Gris, Orange","mountain,cave,desertbadlands",4
+Bouldeneu,Plante,None,2,Oui,Bleu,"grassland,jungle",4
+Élekable,Électrik,None,3,Oui,"Jaune, Noir","grassland,industrial",4
+Maganon,Feu,None,3,Oui,"Rouge, Jaune",volcano,4
+Togekiss,Normal,Vol,3,Oui,Blanc,forest,4
+Yanmega,Insecte,Vol,2,Oui,"Vert, Rouge","forest,swamp",4
+Phyllali,Plante,None,2,Oui,"Jaune, Vert",forest,4
+Givrali,Glace,None,2,Oui,Bleu,ice,4
+Scorvol,Sol,Vol,2,Oui,Gris,"desertbadlands,forest,mountain",4
+Mammochon,Glace,Sol,3,Oui,Marron,ice,4
+Porygon-Z,Normal,None,3,Oui,"Rose, Bleu",city,4
+Gallame,Psy,Combat,3,Oui,"Blanc, Vert",city,4
+Tarinorme,Roche,Acier,2,Oui,"Bleu, Rouge",industrial,4
+Noctunoir,Spectre,None,3,Oui,"Noir, Jaune","desertbadlands,forest,ruin",4
+Momartik,Glace,Spectre,2,Oui,Blanc,ice,4
+Motisma,Électrik,Spectre,1,Oui,"Orange, Bleu","city,industrial",4
+Créhelf,Psy,None,1,Oui,"Jaune, Bleu","cave,freshwater",4
+Créfollet,Psy,None,1,Oui,"Rose, Bleu","cave,freshwater",4
+Créfadet,Psy,None,1,Oui,Bleu,"cave,freshwater",4
+Dialga,Acier,Dragon,1,Oui,"Bleu, Blanc",unknown,4
+Palkia,Eau,Dragon,1,Oui,"Blanc, Rose",unknown,4
+Heatran,Feu,Acier,1,Oui,"Rouge, Gris","cave,mountain,volcano",4
+Regigigas,Normal,None,1,Oui,"Gris, Jaune","cave,ruin",4
+Giratina,Spectre,Dragon,1,Oui,"Gris, Rouge",unknown,4
+Cresselia,Psy,None,1,Oui,"Violet, Bleu","forest,freshwater",4
+Phione,Eau,None,1,Oui,Bleu,"ocean,tropicalSea",4
+Manaphy,Eau,None,1,Oui,Bleu,ocean,4
+Darkrai,Ténèbres,None,1,Oui,Noir,"city,forest",4
+Shaymin,Plante,None,1,Oui,Vert,"city,forest",4
+Arceus,Normal,None,1,Oui,"Blanc, Jaune",unknown,4
