@@ -5,15 +5,16 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.firefox.options import Options
 import time
 
 class DriverController:
 
     def __init__(self,battle_link):
-        
+        options = Options()
+        options.set_preference("intl.accept_languages", "fr-FR, fr")
         service = Service(GeckoDriverManager().install())
-        self.driver = webdriver.Firefox(service=service)
+        self.driver = webdriver.Firefox(service=service,options=options)
         self.battle_link = battle_link
         self.wait = WebDriverWait(self.driver, 10)
         self.driver.get(self.battle_link)
