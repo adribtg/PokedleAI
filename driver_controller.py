@@ -28,26 +28,29 @@ class DriverController:
             pass
 
     
-    def wait_my_turn(self):
-        print("En attente de mon tour ou d'une revanche...")
-        
-        while True:
-            try:
-                turn_elements = self.driver.find_elements(By.XPATH, '//div[contains(@class,"card")]//div[contains(text(),"Votre tour")]')
-                if len(turn_elements) > 0 and turn_elements[0].is_displayed():
-                    print("C'est mon tour !")
-                    return "turn"
+    def wait_my_turn(self, verbose=True):
+        try:
+            my_turn = self.driver.find_elements(By.XPATH, '//div[contains(text(),"Votre tour")]')
+            if len(my_turn) > 0 and my_turn[0].is_displayed():
+                if verbose: print("C'est mon tour !")
+                return "turn"
 
-                rematch_button = self.driver.find_elements(By.XPATH, '//button[contains(@class,"btn-green") and text()="ACCEPTER"]')
-                if len(rematch_button) > 0 and rematch_button[0].is_displayed():
-                    print("Demande de revanche détectée...")
-                    rematch_button[0].click()
-                    time.sleep(1)
-                    return "reset"
+            rematch_btn = self.driver.find_elements(By.XPATH, '//button[contains(@class,"btn-green") and text()="ACCEPTER"]')
+            if len(rematch_btn) > 0 and rematch_btn[0].is_displayed():
+                if verbose: print("Revanche détectée, réinitialisation...")
+                rematch_btn[0].click()
+                return "reset"
 
-            except Exception as e:
-                print(f"Erreur mineure durant l'attente : {e}")
-            time.sleep(0.5)
+            opp_turn = self.driver.find_elements(By.XPATH, '//div[contains(text(),"Tour de l\'adversaire")]')
+            if len(opp_turn) > 0 and opp_turn[0].is_displayed():
+                return "waiting"
+            
+            if verbose: print("Fin de partie détectée.")
+            return "reset"
+
+        except Exception as e:
+            if verbose: print(f"Erreur de lecture : {e}")
+            return "error"
 
 
 

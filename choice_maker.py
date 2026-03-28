@@ -73,24 +73,33 @@ class ChoiceMaker():
         return self.possible_pokemon
     
     def filter_habitat(self, guess: dict):
-        guess_habitat = guess.get("Habitat", {})       
+        guess_habitat = guess.get("Habitat", {})
+        if not guess_habitat:
+            return self.possible_pokemon
         key = "Habitat"
-        for value, status in guess_habitat.items():
-            proposed = {value} if isinstance(value, str) else set(value)
-            if status == 'correct':
-                self.possible_pokemon = self.possible_pokemon[
-                    self.possible_pokemon[key].apply(lambda x: proposed.issubset(set(x)))
-                ]
-            elif status == 'wrong':
-                self.possible_pokemon = self.possible_pokemon[
-                    self.possible_pokemon[key].apply(lambda x: not proposed.intersection(set(x)))
-                ]
-            elif status == 'partial':
-                self.possible_pokemon = self.possible_pokemon[
-                    self.possible_pokemon[key].apply(
-                        lambda x: proposed.issubset(set(x)) and len(set(x)) > len(proposed)
-                    )
-                ]
+        def to_set(v): return {v} if isinstance(v, (str, int)) else set(v)
+
+        correct_vals = set().union(*(to_set(v) for v, s in guess_habitat.items() if s == 'correct'))
+        partial_vals = set().union(*(to_set(v) for v, s in guess_habitat.items() if s == 'partial'))
+        wrong_vals = set().union(*(to_set(v) for v, s in guess_habitat.items() if s == 'wrong'))
+
+        must_have = correct_vals.union(partial_vals)
+        if must_have:
+            self.possible_pokemon = self.possible_pokemon[
+                self.possible_pokemon[key].apply(lambda x: must_have.issubset(set(x)))
+            ]
+        if wrong_vals:
+            self.possible_pokemon = self.possible_pokemon[
+                self.possible_pokemon[key].apply(lambda x: not set(x).intersection(wrong_vals))
+            ]
+        if partial_vals:
+            self.possible_pokemon = self.possible_pokemon[
+                self.possible_pokemon[key].apply(lambda x: len(x) > len(must_have))
+            ]
+        elif correct_vals and not wrong_vals:
+            self.possible_pokemon = self.possible_pokemon[
+                self.possible_pokemon[key].apply(lambda x: len(x) == len(correct_vals))
+            ]
         return self.possible_pokemon
 
 

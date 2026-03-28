@@ -25,6 +25,15 @@ class PokedleAI:
         args = parser.parse_args()
         return args
     
+    def smart_sleep(self, seconds, partie):
+        stop_time = time.time() + seconds
+        while time.time() < stop_time:
+            status = partie.wait_my_turn(verbose=False)
+            if status != "turn":
+                return False
+            time.sleep(0.3)
+        return True
+        
 
     def run(self):
         self.args = self.init_parser()
@@ -32,21 +41,27 @@ class PokedleAI:
         guesser = ChoiceMaker()
         
         while True:
-            waiter = partie.wait_my_turn()
-            if waiter == 'reset':
+            status = partie.wait_my_turn()
+            if status == "waiting":
+                time.sleep(1)
+                continue
+            if status == "reset":
                 guesser = ChoiceMaker()
                 print("--- Nouveau match : Base de données réinitialisée ---")
+                time.sleep(2)
                 continue 
 
-            elif waiter == "turn":
-                time.sleep(random.randint(3000, 5000) / 1000)
+            if status == "turn":
+                if not self.smart_sleep(random.randint(2, 4), partie):
+                    continue 
+
                 lignes = partie.get_rows()
                 guesses = [partie.parse_row(guess) for guess in lignes]
-                pokemon = guesser.make_guess(guesses)        
+                pokemon = guesser.make_guess(guesses)
                 if pokemon:
                     partie.make_guess(pokemon)
-                time.sleep(random.randint(3000, 5000) / 1000)
-
+                    self.smart_sleep(2, partie)
+                
 
     def run_classique(self):
         self.args = self.init_parser()

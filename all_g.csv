@@ -120,7 +120,7 @@ Poissirène,Eau,None,1,Non,"Blanc, Orange","freshwater,ocean",1
 Poissoroy,Eau,None,2,Oui,"Rouge, Blanc","freshwater,ocean",1
 Stari,Eau,None,1,Non,"Marron, Jaune","ocean,tropicalSea",1
 Staross,Eau,Psy,2,Oui,"Violet, Rouge","ocean,tropicalSea",1
-M. Mime,Psy,None,2,Non,"Rose, Blanc",city,1
+M. Mime,Psy,None,2,Oui,"Rose, Blanc",city,1
 Insécateur,Insecte,Vol,1,Non,Vert,"forest,jungle",1
 Lippoutou,Glace,Psy,2,Oui,"Violet, Rouge",ice,1
 Élektek,Électrik,None,2,Non,"Jaune, Noir","grassland,industrial",1
