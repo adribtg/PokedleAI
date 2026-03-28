@@ -145,8 +145,8 @@ Ronflex,Normal,None,2,Oui,"Bleu, Blanc","forest,mountain",1
 Artikodin,Glace,Vol,1,Oui,Bleu,"ice,mountain",1
 Électhor,Électrik,Vol,1,Oui,Jaune,"industrial,mountain",1
 Sulfura,Feu,Vol,1,Oui,"Orange, Rouge","mountain,volcano",1
-Minidraco,Normal,None,1,Non,"Rose, Bleu",city,1
-Draco,Normal,None,1,Non,"Rose, Bleu",city,1
+Minidraco,Dragon,None,1,Non,"Bleu, Blanc",freshwater,1
+Draco,Dragon,None,2,Non,"Bleu, Blanc",freshwater,1
 Dracolosse,Dragon,Vol,3,Oui,Orange,"freshwater,ocean",1
 Mewtwo,Psy,None,1,Oui,Violet,"cave,industrial",1
 Mew,Psy,None,1,Oui,Rose,"forest,jungle",1
@@ -339,7 +339,7 @@ Séléroc,Roche,Psy,1,Oui,Jaune,"cave,ruin",3
 Solaroc,Roche,Psy,1,Oui,"Orange, Jaune","cave,ruin",3
 Barloche,Eau,Sol,1,Non,"Gris, Bleu","cave,freshwater,swamp",3
 Barbicha,Eau,Sol,2,Oui,Bleu,"cave,freshwater,swamp",3
-Écrapince,Eau,Sol,2,Oui,Bleu,"cave,freshwater,swamp",3
+Écrapince,Eau,None,1,Non,Orange,"freshwater",3
 Colhomard,Eau,Ténèbres,2,Oui,Rouge,freshwater,3
 Balbuto,Sol,Psy,1,Non,"Marron, Rouge",ruin,3
 Kaorine,Sol,Psy,2,Oui,"Noir, Rouge",ruin,3
